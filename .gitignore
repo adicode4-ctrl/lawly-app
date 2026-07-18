@@ -1,0 +1,56 @@
+# Python virtual environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+
+# Environment files and secrets (keep API keys out of Git)
+.env
+.env.*
+*.env
+*.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.token
+*.secret
+!.env.example
+!backend/.env.example
+!frontend/.env.example
+backend/.env
+backend/.env.*
+frontend/.env
+frontend/.env.*
+
+# Node / Next.js / local install folders
+node_modules/
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/dist/
+frontend/build/
+.npm/
+.pnpm-store/
+
+# OS / editor files
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs and caches
+*.log
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+coverage/
+
+# Build output
+backend/__pycache__/
